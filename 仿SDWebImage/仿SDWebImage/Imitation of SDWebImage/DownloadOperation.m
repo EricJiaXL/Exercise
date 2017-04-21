@@ -10,4 +10,12 @@
 
 @implementation DownloadOperation
 
+/*
+ 重写自定义操作的入口方法
+ 任何操作在执行时都会默认的调用这个方法
+ 默认在子线程执行
+ */
+- (void)main {
+    
+}
 @end
