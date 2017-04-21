@@ -13,6 +13,7 @@
 		DDDDD4221EA9A6CC0055CF3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDD4201EA9A6CC0055CF3B /* Main.storyboard */; };
 		DDDDD4241EA9A6CC0055CF3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDDD4231EA9A6CC0055CF3B /* Assets.xcassets */; };
 		DDDDD4271EA9A6CC0055CF3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDD4251EA9A6CC0055CF3B /* LaunchScreen.storyboard */; };
+		DDDDD4311EA9A8920055CF3B /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDD4301EA9A8920055CF3B /* DownloadOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DDDDD4231EA9A6CC0055CF3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDDDD4261EA9A6CC0055CF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDDDD4281EA9A6CC0055CF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDDD42F1EA9A8920055CF3B /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		DDDDD4301EA9A8920055CF3B /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		DDDDD4161EA9A6CC0055CF3B /* 仿SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				DDDDD42E1EA9A86C0055CF3B /* Imitation of SDWebImage */,
 				DDDDD41A1EA9A6CC0055CF3B /* AppDelegate.h */,
 				DDDDD41B1EA9A6CC0055CF3B /* AppDelegate.m */,
 				DDDDD41D1EA9A6CC0055CF3B /* ViewController.h */,
@@ -77,6 +81,15 @@
 				DDDDD4181EA9A6CC0055CF3B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDDDD42E1EA9A86C0055CF3B /* Imitation of SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDD42F1EA9A8920055CF3B /* DownloadOperation.h */,
+				DDDDD4301EA9A8920055CF3B /* DownloadOperation.m */,
+			);
+			path = "Imitation of SDWebImage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				DDDDD41F1EA9A6CC0055CF3B /* ViewController.m in Sources */,
 				DDDDD41C1EA9A6CC0055CF3B /* AppDelegate.m in Sources */,
 				DDDDD4191EA9A6CC0055CF3B /* main.m in Sources */,
+				DDDDD4311EA9A8920055CF3B /* DownloadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
